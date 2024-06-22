@@ -18,12 +18,15 @@
      border-radius: 40px;
 }
  
+
 h1 {
    text-align: center;
    color: #fff;
    font-size: 40px;
 }
-   
+h3{
+  font-size: 30px;
+}   
 ul {
    margin-left: 13%;
    margin-right: 15%;
@@ -57,6 +60,10 @@ img {
    font-size: 30px;
 }
  
+address{
+  text-align: center;
+  font-size: 30px;
+}
 @media(min-width:300px) and (max-width:700px){
   .container{
     flex-direction: column;
@@ -72,7 +79,7 @@ img {
     color: blue;
   }
   p{
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     color: blue;
   }
